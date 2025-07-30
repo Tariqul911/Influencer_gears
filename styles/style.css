@@ -91,6 +91,23 @@ body{
 
 /* <!-- MAIN SECTION START --> */
 
+.logos{
+    margin: 20px 100px;
+    
+}
+.brand-logo{
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 36px 30px;
+    border-top: 1px solid #3A3A3A;
+    border-bottom: 1px solid #3A3A3A;
+}
+.logo-img{
+    width: 100px;
+    height: 40px;
+}
+
 
 
 /* <!-- FOOTER SECTION START --> */
