@@ -93,6 +93,7 @@ body{
 
 .logos{
     margin: 20px 100px;
+    margin-top: -50px;
     
 }
 .brand-logo{
@@ -107,10 +108,82 @@ body{
     width: 100px;
     height: 40px;
 }
-
-
-
+/* <!-- Popular collection section --> */
+.Popular{
+    margin: 100px;
+    padding-left: 52px;
+    padding-right: 50px;
+}
+.popular-title{
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.product{
+    width: 329px;
+    height: 476px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.product img{
+    width: 100%;
+    border-radius: 10px;
+}
+/* <!-- Featured SECTION START --> */
+.Featured{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.gear-container{
+    gap: 100px;
+    padding-left: 145px;
+    padding-right: 100px;
+}
+.gear-title{
+    font-size: 38px;
+    font-weight: 600;
+}
+.gear-description{
+    font-size: 16px;
+    font-weight: 700;
+    padding-right: 200px;
+}
+.gear-img{
+    width: 404px;
+    height: 270px;
+}
 /* <!-- FOOTER SECTION START --> */
+.footer-container{
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #0A0826;
+    padding: 100px;
+}
+.footer-header{
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer-title{
+    font-size: 14px;
+    font-weight: 700;
+}
+.social-links{
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    
+}
+
+
 /* <!-- Responsive for Mobile --> */
 @media screen and (max-width: 576px) {
   /* General padding adjustment */
@@ -171,4 +244,5 @@ body{
   .banner-description{
     padding-right: 20px;
   }
+   
 }
