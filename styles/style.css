@@ -34,8 +34,8 @@ body{
     text-decoration: none;
     color: #3A3A3A;
 }
-.nav-item{
-    
+.icon-container{
+    gap: 30px;
 }
 .icon-img{
     width: 1.8rem;
@@ -70,7 +70,6 @@ body{
     background-color: #E02C6D;
     border: none;
     border-radius: 41px;
-
 }
 .arrow-icon{
     width: 24px;
@@ -80,9 +79,6 @@ body{
     width: 440px;
     height: 414px;
 }
-
-
-
 /* <!-- SHARED SECTION START --> */
 .display-flex{
     display: flex;
@@ -98,3 +94,64 @@ body{
 
 
 /* <!-- FOOTER SECTION START --> */
+/* <!-- Responsive for Mobile --> */
+@media screen and (max-width: 576px) {
+  /* General padding adjustment */
+  .header {
+    padding: 20px;
+  }
+  .nav-bar{
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  .brand {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: none;
+    outline: none;
+  }
+
+  .nav-links {
+    display: none; /* Hide nav links on mobile */
+  }
+
+  /* BANNER */
+  .banner {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    background-size: 257px 257px;
+    background-position: center top;
+    padding: 40px 20px;
+  }
+  .banner-description{
+    text-align: justify;
+  }
+  .banner-main-img{
+    width: 200px;
+    height: 190px;
+  }
+}
+
+/* <!-- Responsive for Medium device --> */
+@media screen and (min-width:577px) and (max-width:992px) {
+    .nav-links{
+        justify-content: center;
+        align-items: center;
+    }
+    .banner{
+        gap: 40px;
+        background-size: 350px 340px;
+        background-position: calc(100% + 2px);
+        
+    }
+    .banner-main-img{
+    width: 300px;
+    height: 290px;
+  }
+  .banner-description{
+    padding-right: 20px;
+  }
+}
